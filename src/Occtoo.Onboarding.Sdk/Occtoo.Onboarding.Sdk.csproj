@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-	<Title>Occtoo.Onboarding.Sdk</Title>
+	<Title>Occtoo.Onboarding.Sdk.Local</Title>
 	<Company>Occtoo</Company>
 	<Authors>Occtoo</Authors>
 	<Description>Wrapped HttpClient for onboarding data to Occtoo</Description>
@@ -12,6 +12,9 @@
     <PackageIcon>icon.png</PackageIcon>
 	<PackageReadmeFile>readme.md</PackageReadmeFile>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageId>$(AssemblyName).Local</PackageId>
+	<Product>$(AssemblyName).Local</Product>
+	<Version>1.0.1</Version>
   </PropertyGroup>
 
 	
